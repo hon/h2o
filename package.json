@@ -1,0 +1,20 @@
+{
+  "name": "h2o",
+  "version": "1.0.0",
+  "description": "a css framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "stylus src/index.styl -o ./h2o.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hon/h2o.git"
+  },
+  "author": "hon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hon/h2o/issues"
+  },
+  "homepage": "https://github.com/hon/h2o#readme"
+}
