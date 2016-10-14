@@ -1,41 +1,28 @@
 /* ==========================================================================
-   Button Component
+   Button element
    ========================================================================== */
 
-// setting
+//setting
+$ty.height = $ty.line-height =  m(15)
 
-// object
+/**
+ ```html
+ <button name="button" class="button">按钮</button>
+ ```
+ */
 .button
   display inline-block
   padding 0 m(30)
   h m(30)
-  border 1px solid border-color
-  background default-bg
+  border 1px solid $border-color
+  background $default-bg
   &:active
     line-height m(32)
   &.radius
-    border-radius default-radius
-
-/*
-  // radius
-  &.-radius,
-  &--radius
-    border-radius default-radius
-
-
-  // x-large
-  &.-xl,
-  &--xl
-    font-size m(30)
-    h u(50)
-    &:active
-      line-height u(52)
-
-  // large
-  &.-lg,
-  &--lg
-    font-size u(25)
-    h u(40)
-    &:active
-      line-height u(42)
-*/
+    border-radius $default-radius
+  &.ty
+    h $ty.height
+  // &.sm
+  // &.md
+  // &.lg
+  // &.xl
